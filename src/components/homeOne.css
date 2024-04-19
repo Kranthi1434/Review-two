@@ -1,0 +1,142 @@
+.football-page {
+  padding: 60px 112px 60px 112px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 950px) {
+  .football-page {
+    padding: 50px 10px 0px 10px;
+  }
+}
+Button.event-btn {
+  background-color: #1e1e1e;
+  color: white;
+  border: 1px solid #98a2b3;
+}
+Button.event-btn:hover {
+  background-color: #1e1e1e;
+  color: white;
+  border: 1px solid #98a2b3;
+}
+.football-heading {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 700;
+}
+.football-text {
+  color: #d0d5dd;
+  padding: 0px 0px 0px 112px;
+  margin-top: -60px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+@media only screen and (max-width: 950px) {
+  .football-text {
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+}
+.football-image {
+  padding: 60px 112px 60px 112px;
+}
+@media only screen and (max-width: 950px) {
+  .football-image {
+    padding: 10px 10px 10px 10px;
+  }
+}
+.container {
+  position: relative;
+  background-image: url("E:\REACT\new-app\src\assets\images\imageOne.jpg");
+  height: 350px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.blur {
+  position: absolute;
+  backdrop-filter: blur(300px);
+  background-color: rgba(2, 2, 2, 0.2);
+  height: 130px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+@media screen and (max-width: 950px) and (min-width: 750px) {
+  .blur {
+    position: absolute;
+    backdrop-filter: blur(50px);
+    background-color: rgba(41, 41, 41, 0.2);
+    height: 130px;
+    width: 596px;
+    left: 63px;
+  }
+}
+.premier-one {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border-radius: 999px;
+  bottom: 60px;
+  left: 30px;
+}
+@media only screen and (max-width: 950px) {
+  .premier-one {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 500px;
+    bottom: 90px;
+    left: 30px;
+  }
+}
+.premier-text {
+  position: absolute;
+  color: #ffffff;
+  background-color: rgba(51, 51, 51, 0.2);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  left: 180px;
+  top: 20px;
+}
+@media only screen and (max-width: 950px) {
+  .premier-text {
+    position: absolute;
+    color: #ffffff;
+    background-color: rgba(51, 51, 51, 0.2);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    left: 130px;
+    top: 15px;
+  }
+}
+.qatar-text {
+  position: absolute;
+  color: #ffffff;
+  background-color: rgba(51, 51, 51, 0.2);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  top: 75px;
+  left: 30px;
+}
+Button.btn-style {
+  background-color: rgba(29, 28, 28, 0.2);
+  border: 1px solid white;
+  position: absolute;
+  top: 70px;
+  right: 40px;
+}
+Button.btn-style:hover {
+  background-color: rgba(7, 3, 3, 0.2);
+  border: 1px solid rgb(61, 61, 61);
+}
+@media only screen and (max-width: 950px) {
+  Button.btn-style {
+    right: 10px;
+  }
+}

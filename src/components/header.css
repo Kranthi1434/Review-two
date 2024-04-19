@@ -1,0 +1,44 @@
+* {
+  background-color: #1e1e1e;
+}
+.appbar-style {
+  background-color: #1e1e1e;
+  /* padding:'0px 112px 0px 112px'; */
+  height: 80px;
+  justify-content: space-between;
+}
+.logo-style {
+  padding: 0px 0px 0px 110px;
+}
+@media only screen and (max-width: 950px) {
+  .logo-style {
+    padding: 10px;
+  }
+}
+.nav-link {
+  margin-left: 20px;
+}
+@media only screen and (max-width: 950px) {
+  .nav-link {
+    margin-left: 10px;
+  }
+}
+Button.black {
+  background-color: #111111;
+  color: white;
+  border: #030303;
+  box-shadow: 0 4px 8px 0 #1e1e1e, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+Button.yellow {
+  background-color: #e6af37;
+  color: #1e1e1e;
+  border: #e6af37;
+  margin-right: 112px;
+}
+Button.black:hover {
+  background-color: #111111;
+}
+Button.yellow:hover {
+  background-color: #e6af37;
+  color: #1e1e1e;
+}
