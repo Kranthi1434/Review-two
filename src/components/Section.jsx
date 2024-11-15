@@ -2,7 +2,10 @@ import React from 'react'
 
 const Section = () => {
   return (
-    <div>This is section component</div>
+    <div>
+      <p>This is section component</p>
+      <p>second section paragraph</p>
+    </div>
   )
 }
 
