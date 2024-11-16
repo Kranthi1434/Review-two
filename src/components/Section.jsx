@@ -4,7 +4,9 @@ const Section = () => {
   return (
     <div>
       <p>This is section component</p>
-      <p>second section paragraph</p>
+      <p>Second section paragraph</p>
+      <p>Third section paragraph</p>
+      <p>Four section paragraph</p>
     </div>
   )
 }
